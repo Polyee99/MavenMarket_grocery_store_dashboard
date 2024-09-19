@@ -4,11 +4,12 @@
 
 This repository contains a Power BI project that analyzes and visualizes sales performance data for a fictional bike retail company. The dashboard provides insights into sales trends, top-performing products, and regional performance, helping stakeholders and executives to make data-driven decisions.
 
-![Power BI Exec page](https://github.com/user-attachments/assets/28415283-f1f5-4fdc-9174-9e52fa8d28b2)
+![MavenMarket_exec](https://github.com/user-attachments/assets/f690d097-9fe8-4551-b69a-82c4b783a7f8)
+
 
 ## Features
 
-* Executive Overview: A high-level view of total revenue, number of transactions, and return trends with additional product category detail.
+* Topline Performance: A high-level view of total revenue, number of transactions, and return trends with additional product category detail.
   
 * Regional Sales: Geographical analysis showing order performance across different regions and countries.
 *	Product Performance: Insights into product revenue, order and profit margins. Adjustable product metric charts over time.
