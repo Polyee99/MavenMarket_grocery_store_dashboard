@@ -18,19 +18,19 @@ This repository contains a Power BI project that analyzes and visualizes sales p
 
 ## 📁 Files in the Repository
 
-*	<a href="https://github.com/Polyee99/Power-BI-Online-Store-Dashboards/blob/main/AdventureWorks%20Bike%20Store%20Dashboard_2024_09.pbix">AdventureWorks Bike Store Dashboard_2024_09.pbix</a> - The Power BI file containing the data model and dashboard.
+*	<a href="https://github.com/Polyee99/MavenMarket_grocery_store_dashboard/blob/main/Maven%20Market%20Dashboard_2024_09.pbix">Maven Market Dashboard_2024_09.pbix</a> - The Power BI file containing the data model and dashboard.
   
-*   <a href="https://github.com/Polyee99/Power-BI-Online-Store-Dashboards/tree/main/AdventureWorks%2BRaw%2BData">AdventureWorks+Raw+Data</a> - Raw data used for the analysis, including sales transactions, customer details, and product information.
-*   <a href="https://github.com/Polyee99/Power-BI-Online-Store-Dashboards/tree/main/AdventureWorks%2BImages">AdventureWorks+Images</a> - Images used for additional button icons.
+* <a href="https://github.com/Polyee99/MavenMarket_grocery_store_dashboard/tree/main/Maven%2BMarket%2BCSV%2BFiles">Maven+Market+CSV+Files</a> - Raw data used for the analysis, including customer details, regoonal, store and product information with a subfolder for sales transactions.
+* <a href="https://github.com/Polyee99/MavenMarket_grocery_store_dashboard/blob/main/Maven_Market.png">Maven_Market.png</a> - Image used for grocery logo.
 
 ## 📊 Data Sources 
 
 The data used in this project comes from the attached csv files:
 
-*	Sales Data: Contains details of sales transactions, including product/customer keys, quantity and date of purchase.
+*	Transaction Data: Contains details of sales transactions, including product/customer keys and quantity.
   
 *	Return Data: Includes date of return and different foreign keys related to products.
-*	Lookup Data: Information about customers, products, dates and territory features.
+*	Lookup Data: Information about customers, products, calendar and regional details.
 
 ## 📋 Requirements
 
@@ -45,9 +45,9 @@ To run this Power BI project locally:
 
 1. Clone the repository:
 ```
-git clone https://github.com/YourUsername/Power-BI-Sales-Dashboard.git
+git clone https://github.com/Polyee99/MavenMarket_grocery_store_dashboard.git
 ```
-3. Open the <a href="https://github.com/Polyee99/Power-BI-Online-Store-Dashboards/blob/main/AdventureWorks%20Bike%20Store%20Dashboard_2024_09.pbix">Sales_Performance_Dashboard.pbix</a> file in Power BI Desktop.
+3. Open the <a href="https://github.com/Polyee99/MavenMarket_grocery_store_dashboard/blob/main/Maven%20Market%20Dashboard_2024_09.pbix">Maven Market Dashboard_2024_09.pbix</a> file in Power BI Desktop.
 
 4. Ensure that the data source paths are correct. If needed, modify the data connections in the Transform Data tab to point to the correct file locations.
 
@@ -56,26 +56,16 @@ git clone https://github.com/YourUsername/Power-BI-Sales-Dashboard.git
 6. Explore the dashboard and interact with the visualizations.
 
 ## ⚙️Dashboard Walkthrough
-*	Navigation panel on the left side of every page
-### Executive Overview:
+
+### Topline Performance:
 *	Total revenue, profit, sales, and return rate.
-*	Revenue trend by week with dynamic filters for year.
-*	Orders by product Category with custom tooltip.
-*	Monthly KPIs
-*	Product detail table with additional metrics.
-*	Top performed products.
-### Regional Sales:
-*	Map visualization showing sales by state and city.
-*	Custom slicer for continents.
-### Product Performance:
-*	Breakdown of specific product by revenue, order and profit gauge chart.
-*	Filter profit by price and price adjustments to analyze performance over the years.
-*	Interactive metric-over-year comparison to track growth.
-### Customer Insights:
-*	Some customer related information with additional line chart to measure trends over the years.
-*	Analyze customer segmentation by name, total orders and revenue.
-*	Additional detail about top customer.
-*	Visualize sales by income and occupation on donut chart. 
+*	Monthly KPIs for Transaction, Profit and Returns.
+*	Product detail table with additional metrics like brand, transaction, profit, margin and return rate.
+*	Map visualization showing sales in stores by state and city.
+*	Treemap to show proportion of total visible regions. 
+*	Weekly Revenue on a timeline comparison.
+*	Breakdown of product revenue vs target on a gauge chart.
+
 ## 🚀 Project Methodology
 
 1. Data Cleaning: The raw data was cleaned using Power BI's Power Query Editor, ensuring that all records are complete and formatted properly.
